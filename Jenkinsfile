@@ -7,10 +7,10 @@ pipeline {
                     git {
                         remote {
                               url('https://github.com/Majordilip/JenkinsDemoProject.git')
-                  
-     }       
-    }
+                        }          
+            }       
+         }
+       }
+     }
    }
-  }
  }
-}
