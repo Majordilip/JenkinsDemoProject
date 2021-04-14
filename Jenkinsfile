@@ -7,7 +7,7 @@ pipeline {
                     git {
                         remote {
                             name('remoteB')  
-                              url('https://github.com/Majordilip/JenkinsDemoProject.git')
+                              url('https://github.com/Majordilip/JenkinsDemoProject.git' 'master')
                         }          
             }       
          }
